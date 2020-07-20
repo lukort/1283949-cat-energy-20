@@ -4,7 +4,120 @@
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
   </head>
-  <body>
+  <body class="page__body">
+
+    <header class="page-header">
+      <div class="page-header__logo logo">
+          <a class="logo__picture" href="index.html">
+            <img src="img/logo-mobile.svg" width="34" height="38" alt="Логотип Cat-Energy">
+          </a>
+          <a class="logo__name" href="index.html">
+            <img src="img/footer-logo2.svg" width="101" height="18" alt="Название магазина Cat-Energy">
+          </a>
+      </div>
+      <nav class="main-nav">
+        <button class="main-nav-toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--active" >Главная</li>       <!--<a href="index.html"></a>-->
+            <li class="main-nav__item"><a href="catalog.html">Каталог продукции</a></li>
+            <li class="main-nav__item"><a href="form.html">Подбор программы</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="visually-hidden">Магазин Кэт-энерджи</h1>
+      <section class="promo">  <!--hero?-->
+        <div class="promo__wrapper">
+          <h2 class="promo__title">Функциональное питание для котов</h2>
+          <p class="promo__appeal">Занялся собой? Займись котом!</p>
+          <img class="promo__foto" src="//img/index-can-mobile1.svg"  width="280" height="270" alt="Упаковка продукции Cat Energy Pro с курицей?">
+          <button class="promo__button button">Подобрать программу</button>
+        </div>
+      </section>
+      <section class="reason">
+        <div class="reason__wrapper">
+          <div class="reason__item">  <!--уточнить cat-slim-->
+            <h2 class="reason__title">Похудение</h2>
+            <img class="reason__picture" src="//img/cat-slim.svg" width="50" height="53" alt="Сидящий кот">
+            <p class="reason__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+            <a class="reason__catalog reason__catalog__icon button" href="#">
+              Каталог SLIM
+              <span class="button__icon"><img src="icon_arrow" width="32" height="10" alt="Стрелка вправо"></span>  <!--уточнить +почему 2 стрелки?-->
+            </a>
+          </div>
+          <div class="reason__item">  <!--уточнить cat-pro-->
+            <h2 class="reason__title">Набор массы</h2>
+            <img class="reason__picture" src="//img/cat-pro.svg" width="67" height="28" alt="Идущий кот">
+            <p class="reason__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+            <a class="reason__catalog  reason__catalog__icon button" href="#">
+              Каталог PRO
+              <span class="button__icon"><img src="icon_arrow" width="32" height="10" alt="Стрелка вправо"></span>  <!--уточнить +почему 2 стрелки?-->
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="principles">             <!--principles of operation.. how to works.. howwork-->
+        <div class="principles__wrapper">
+          <h2 class="principles__title">Как это работает</h2>
+          <ul class="principles__list">
+            <li class="principles__item">
+              <img class="principles__picture" src="//img/icon_leaf.svg" width="30" height="32" alt="Листок">
+              <p class="principles__text">Функциональное питание содержит только полезные питательные вещества.</p>
+            </li>
+            <li class="principles__item">
+              <img class="principles__picture" src="//img/icon_tube.svg" width="29" height="31" alt="Емкость с питанием">
+              <p class="principles__text">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+            </li>
+            <li class="principles__item">
+              <img class="principles__picture" src="//img/icon_eat.svg" width="23" height="30" alt="Вилка и ложка">
+              <p class="principles__text">Замените один-два приема обычной еды на наше функциональное питание.</p>
+            </li>
+            <li class="principles__item">
+              <img class="principles__picture" src="//img/icon_alarm.svg" width="32" height="33" alt="Часы">
+              <p class="principles__text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <div class="page-footer__logo logo">   <!--уточнить logo?-->
+          <a class="logo__name" href="index.html">
+            <img src="img/footer_logo2.svg" width="128" height="24" alt="Название магазина Cat-Energy">
+          </a>
+        </div>
+        <div class="page-footer__social social">
+          <ul  class="social__list">
+            <li class="social__item">
+              <a class="social__button social__button--vkontakte" href="#" aria-label="Вконтакте">
+                <img src="//img/icon-vkontakte.svg" width="23"  height="16" alt="Иконка Вконтакте">
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__button social__button--instagram" href="#" aria-label="Инстаграм">
+                <img src="//img/icon_instagram.svg" width="16"  height="16" alt="Иконка Инстаграм">
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__button social__button--facebook" href="#" aria-label="Фейсбук">
+                <img src="//img/icon_facebok.svg" width="22"  height="22" alt="Иконка Фейсбук">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+            <a class="copyright__name" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <a class="copyright__picture" href="https://htmlacademy.ru/intensive/adaptive">
+              <img src="//img/logo_html1.svg" width="27" height="34" alt="Логотип HTML Academy">
+            </a>
+        </div>
+      </footer>
+    </main>
 
     <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
 
