@@ -1,0 +1,36 @@
+.promo__title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* or 100% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.promo__appeal {
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.promo__wrapper {
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-size: contain;  /*cover*/
+  background-position: 0;
+  background-color:#68B738;
+  background-repeat: no-repeat;
+}
+
