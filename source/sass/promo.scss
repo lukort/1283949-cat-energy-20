@@ -1,36 +1,30 @@
-.promo__title {
-  font-family: Oswald;
+.promo {
+  font-family: "Oswald", "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
+  color: #ffffff;
+}
+
+.promo__title {
   font-size: 36px;
   line-height: 36px;
-  /* or 100% */
-
-  text-align: center;
-
-  color: #FFFFFF;
-
 }
 
 .promo__appeal {
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 14px;
-/* identical to box height, or 100% */
-
-text-transform: uppercase;
-
-color: #FFFFFF;
-
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
 }
 
 .promo__wrapper {
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-size: contain;  /*cover*/
   background-position: 0;
-  background-color:#68B738;
+  background-color: #68b738;
   background-repeat: no-repeat;
 }
 
+.promo-button {
+  display: inline-block;
+  background-color: #68b738;
+}

@@ -1,46 +1,40 @@
-@import  "content.scss",
-"page.scss",
-"page__body.scss",
-"page-header.scss",
-"logo.scss",
-"main-nav.scss",
-"main-nav__wrapper.scss",
-"main-nav__list.scss",
-
-"page-main.scss",
-"promo.scss",
-"promo__wrapper.scss",
-"promo__button.scss",
-"reason.scss",
-"reason__wrapper.scss",
-"reason__list.scss",
-"reason__item.scss",
-"advantages.scss",
-"advantages__wrapper.scss",
-"advantages__list.scss",
-"advantages__item.scss",
-
-"page-footer.scss",
-"page-footer__logo.scss",
-"page-footer__social.scss",
-"social.scss",
-"social__list.scss",
-"social__item.scss",
-"social__button.scss",
-"page-footer__copyright.scss",
-"copyright.scss",
-
-"catalog.scss",
-"catalog__header.scss",
-"catalog__wrapper.scss",
-"main-product.scss",
-"main-product__list.scss",
-"main-product__card.scss",
-"main-product__info.scss",
-"product-info.scss",
-"product-info__item.scss",
-"main-product-all.scss";
-
+@import "content.scss",
+  "page.scss",
+  "page__body.scss",
+  "page-header.scss",
+  "logo.scss",
+  "main-nav.scss",
+  "main-nav__wrapper.scss",
+  "main-nav__list.scss",
+  "page-main.scss",
+  "promo.scss",
+  "promo__wrapper.scss",
+  "promo__button.scss",
+  "reason.scss",
+  "reason__wrapper.scss",
+  "reason__list.scss",
+  "reason__item.scss",
+  "advantages.scss",
+  "advantages__wrapper.scss",
+  "advantages__list.scss",
+  "advantages__item.scss",
+  "page-footer.scss",
+  "page-footer__logo.scss",
+  "page-footer__social.scss",
+  "social.scss",
+  "social__button.scss",
+  "page-footer__copyright.scss",
+  "copyright.scss",
+  "catalog.scss",
+  "catalog__header.scss",
+  "catalog__wrapper.scss",
+  "main-product.scss",
+  "main-product__list.scss",
+  "main-product__card.scss",
+  "main-product__info.scss",
+  "product-info.scss",
+  "product-info__item.scss",
+  "main-product-all.scss";
 /*надо ли разделить на группы*/
 
 a {
@@ -53,7 +47,5 @@ img {
 }
 
 li {
-list-style: none;
+  list-style: none;
 }
-
-
