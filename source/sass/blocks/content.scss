@@ -1,20 +1,24 @@
-.feedback h2 {
+.promo__title,
+.reason__title,
+.advantages__title,
+.main-product__title {
   font-family: inherit;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 37px;
   text-transform: uppercase;
-  color: #000000;
+  color: #000000;     /*promo__title  в mobile - #ffffff*/
 }
 
-.feedback p {
+.reason__text,
+.advantages__text,
+.copyright__name,
+.main-product-all__text-more {
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  color: #444444;
+  /*font-size: 14px;16px;
+  line-height: 18px;20px; 24px*/
+  color: #444444; /*в каталоге есть абзац #ffffff*/
 }
 
 a {
