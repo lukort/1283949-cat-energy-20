@@ -1,0 +1,19 @@
+/*основные настройки?*/
+.page {
+  font-family: "Oswald", "Open Sans", sans-serif;
+  background-color: #e5e5e5;
+}
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  display: grid;
+  min-width: 320px;
+  /*height: ;*/
+  grid-template-rows:
+  min-content
+  1fr
+  min-content;
+  row-gap: 20px;
+}
