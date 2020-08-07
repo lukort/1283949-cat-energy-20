@@ -1,0 +1,38 @@
+.promo {
+  font-family: "Oswald", "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.promo__wrapper {
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-size: contain;  /*cover*/
+  background-position: 0;
+  background-color: #68b738;
+  background-repeat: no-repeat;
+}
+
+.promo__title {
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff; /*только в mobile*/
+}
+
+.promo__appeal {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+/*.promo__list {
+
+}
+.promo__item {
+
+}*/
+
+.promo__button {
+  display: inline-block;
+  background-color: #68b738;
+}
