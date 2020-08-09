@@ -1,10 +1,16 @@
 .page {
   font-family: "Oswald", "Open Sans", sans-serif;
-  background-color: #e5e5e5;
+  background-color: red;  /* тест, д.б. $grey;*/
 }
 
 .page__body {
+  min-width: 320px;
   min-height: 100%;
-  margin: 0;
-  background-color: #ffffff;
+  margin: 0 auto;
+  background-color: $white;
+}
+
+.page-main {
+  width: 280px;
+  padding: 20px;
 }

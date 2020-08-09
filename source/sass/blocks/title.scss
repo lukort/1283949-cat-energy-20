@@ -1,0 +1,11 @@
+/*.promo__title,
+.reason__title,
+.advantages__title,
+.main-product__title*/
+.title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $black;     /*promo__title  в mobile - #ffffff*/
+}
